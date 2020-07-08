@@ -1,0 +1,17 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "agoraShop",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "agora-shop",
+      "kebab-case"
+    ]
+  }
+}
